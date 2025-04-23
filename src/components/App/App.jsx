@@ -13,7 +13,7 @@ function App() {
         tag={userData.tag}
         location={userData.location}
         image={userData.avatar}
-        stats={userData.stats} //stats
+        stats={userData.stats}
       />
       <FriendList friends={friends} />
       <TransactionHistory transactions={transactions} />
