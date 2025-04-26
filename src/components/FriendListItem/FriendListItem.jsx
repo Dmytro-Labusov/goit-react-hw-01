@@ -8,6 +8,9 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
       ></span>
       <img className={css.avatar} src={avatar} alt={name} width="48" />
       <p className={css.name}>{name}</p>
+      <p className={`${css.statusText} ${isOnline ? css.online : css.offline}`}>
+        {isOnline ? "Online" : "Offline"}
+      </p>
     </li>
   );
 };

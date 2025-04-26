@@ -14,11 +14,11 @@
   border-radius: 50%;
 }
 
-.online {
+.status.online {
   background-color: green;
 }
 
-.offline {
+.status.offline {
   background-color: red;
 }
 
@@ -28,4 +28,16 @@
 
 .avatar {
   border-radius: 8px;
+}
+
+.statusText {
+  font-weight: 600;
+}
+
+.statusText.online {
+  color: green;
+}
+
+.statusText.offline {
+  color: red;
 }
